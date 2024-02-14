@@ -14,7 +14,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #030637;
+    background-color: #0e1021;
     color:white;
     padding: 20px 13px;
 }
@@ -36,3 +36,70 @@ ul li a:hover{
     color: red;
 }
 
+.logo img{
+   width: 30px;
+    color: white;
+    filter: invert();
+    
+}
+.logo {
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 30px;
+}
+
+/* Main Css */
+main{
+    min-height: 100vh;
+    padding: 5px;
+}
+
+.container{
+    background-color: rgb(160, 160, 120);
+    max-width: 80vw;
+    margin: auto;
+    padding: 15px;
+}
+.container h1{
+    padding: 12px 0px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border: 1px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+/* Footer Css */
+footer{
+    padding: 13px ;
+    justify-content: center;
+    font-size: 7px;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    background-color:blueviolet;
+}
+
+/* Mobile responsive */
+@media only screen and  (max-width:600px){
+    body{
+
+    }
+    .container{
+        font-size: 13px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding: 6px 0;
+    }
+    
+}
